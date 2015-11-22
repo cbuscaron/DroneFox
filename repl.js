@@ -52,7 +52,7 @@ client.takeoff();
 
 client.after(15000, function(){ 
   client.calibrate(0);  
-  //ctrl.zero()
+  ctrl.zero()
 })
 /*
 client.after(15000, function(){ 
@@ -62,7 +62,7 @@ client.after(15000, function(){
 */
 
 client.after(5000, function(){ 
-     ctrl.go({x: 4, y:0});
+     ctrl.go({x: 5, y:0});
 })
 
 client.after(5000, function(){ 
@@ -74,9 +74,9 @@ client.after(5000, function(){
 })
 
 
-client.after(5000, function(){ 
-     ctrl.cw(180);
-})
+//client.after(5000, function(){ 
+  //   ctrl.cw(180);
+//})
 /*
 //client.after(10000, function(){ 
   //   ctrl.go({x: 3, y:0});
@@ -98,6 +98,8 @@ client.after(5000, function(){
 
 //client.after(5000, function(){ 
 //client.land()
+
+
 //})
 //client.after(5000, function(){ 
 //client.land()
